@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root{
+    --width-break: 600px;
+}
+
+body {
+    background-image: url(/images/minions.jpg);
+    margin: 0px;
+    font-family: 'Architects Daughter', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    /* background-color: #FCD34D; */
+    padding: 1.5rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+textarea {
+    width: 35%;
+    height: 15vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-color: black;
+    background-color: transparent;
+    border: 2px solid #000000;
+}
+
+::placeholder {
+    color: #000000;
+    font-weight: bolder;
+    font-family: 'Architects Daughter', cursive;
+    font-size: larger;
+}
+
+ .button {
+    text-align: center;
+}
+
+button {
+    max-width: var(--width-break);
+    margin-top: 1rem;
+    border: none;
+    color: black;
+    padding: 1rem;
+    background-color: #FCD34D;
+    margin-right: 24.8rem;
+    font-size: large;
+}
+
+.translationText {
+    font-size: larger; 
+    text-align: center; 
+    margin-right: 19rem; 
+    margin-top: 1rem;
+    color: black;
+    font-weight: bolder;
+}
+
+#output {
+    border: 1px solid black;
+    height: 15vh;
+    width: 35%;
+    margin: 1rem;
+    padding: 1rem;
+    margin: auto;
+    display: block;
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+
+footer{
+    /* background-color: #FCD34D; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer p {
+    display: block;
+    text-align: center;
+    max-width: var(--width-break);
+    margin: auto;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
